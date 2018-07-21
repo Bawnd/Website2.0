@@ -1,0 +1,51 @@
+html, body{
+  background-color:black;
+}
+h1{
+  color:white;
+  font-family:"Noto Sans"
+}
+h3{
+  color:white;
+  font-family:"Noto Sans"
+}
+#calcOutput{
+  background-color:white;
+  height:75px;
+  width:250px;
+  border-top-left-radius: 2em;
+  border-top-right-radius: 2em;
+  margin-right:auto;
+  margin-left:auto;
+  margin-top: 20px;
+  padding-top: 20px;
+}
+
+#calculator{
+  background-color:grey;
+  width:250px;
+  padding-top:20px;
+  padding-bottom:30px;
+  border-bottom-left-radius:2em;
+  border-bottom-right-radius:2em;
+  margin-right:auto;
+  margin-left:auto;
+}
+
+#steps{
+  padding-left:20px;
+  font-size:2em;
+  padding-right:20px;
+  line-height:0;
+}
+#display{
+  line-height:3;
+  padding-right:20px;
+}
+a{
+  margin: 5px;
+  width:2.1vw;
+}
+.bigButton{
+  width: 97px;
+}

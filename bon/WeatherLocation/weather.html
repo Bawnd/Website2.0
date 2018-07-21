@@ -1,0 +1,22 @@
+<html>
+  <head>
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+      <link rel="stylesheet" href="weather.css">
+      <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  </head>
+  <body>
+    <div class="container-fluid text-center">
+      <h1>The Weather Today</h1>
+      <h4>By Bonaventure Leung</h4>
+      <div class="col-md-12 col-md-offset-2">
+        <p>You are in <strong id="city"></strong></p>
+        <p>The temperature is <strong class="btn-group">
+          <button id="cTemp" type="button" class="btn btn-primary">
+          </button></strong></p>
+        <p>The wind speed is <strong id="windSpeed"></strong></p>
+        <p>The weather type is <strong id="weatherType"></strong></p>
+      </div>
+    </div>
+    <script src="weather.js"></script>
+  </body>
+</html>

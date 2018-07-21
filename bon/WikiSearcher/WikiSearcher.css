@@ -1,0 +1,22 @@
+body{
+  margin-top:20px;
+  margin-bottom:20px;
+  font-family:Courier New;
+}
+button{
+  float:left;
+  margin-bottom:5px;
+  margin-top:10px;
+}
+#output{
+  float:left;
+  margin-top: 25px;
+  font-size:17px;
+}
+h1{
+  font-size:90px;
+}
+.pic{
+  height: 25%;
+  width: 25%;
+}
